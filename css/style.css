@@ -1,0 +1,27 @@
+body{
+    color: #fff;
+    background-color: black;
+}
+
+#start{
+    background-image: url(https://www.nowmaste.com.br/wp-content/uploads/2014/02/lord-shiva.jpg);
+    
+}
+
+.slide, .slide::before{
+    background: 50% 50% / cover;
+}
+
+.slide{
+    position: relative;
+    padding: 25% 10%;
+    min-height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    transform-origin: inherit;
+}
+
+.inicio{
+    color: black;
+    font-size: 50px;
+}
